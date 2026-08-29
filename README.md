@@ -16,14 +16,16 @@ The goal is to build technology that serves the property, continues working loca
 
 Automated Acres will document and develop projects across several areas:
 
-- **Local AI** — locally hosted language models, AI agents, RAG, document processing, and practical AI tools
-- **Self-Hosted Infrastructure** — Proxmox, Linux, containers, networking, storage, monitoring, and home servers
-- **Home & Property Automation** — Home Assistant, sensors, equipment control, alerts, and property-wide automation
-- **Energy** — solar, batteries, generators, power monitoring, efficiency, and intelligent load management
-- **Homestead Systems** — irrigation, water, livestock systems, environmental monitoring, and equipment automation
-- **Networking** — reliable local networks, VLANs, offline-first systems, and secure remote access
-- **Monitoring & Data** — Grafana, InfluxDB, Prometheus, telemetry, logging, and long-term system analysis
-- **Open-Source Tools & Scripts** — repeatable scripts and documentation designed so others can build the same systems
+- **[Local AI](local-ai/)** — locally hosted language models, AI agents, RAG, document processing, and practical AI tools
+- **[Proxmox & Self-Hosted Infrastructure](proxmox/)** — Proxmox, Linux, containers, networking, storage, monitoring, and home servers
+- **[Home & Property Automation](home-assistant/)** — Home Assistant, sensors, equipment control, alerts, and property-wide automation
+- **[Energy](energy/)** — solar, batteries, generators, power monitoring, efficiency, and intelligent load management
+- **[Homestead Systems](homestead-systems/)** — irrigation, water, livestock systems, environmental monitoring, and equipment automation
+- **[Networking](networking/)** — reliable local networks, VLANs, offline-first systems, and secure remote access
+- **[Monitoring & Data](monitoring/)** — Grafana, InfluxDB, Prometheus, telemetry, logging, and long-term system analysis
+- **[Sensors](sensors/)** — environmental, equipment, server, power, and property telemetry
+- **[Open-Source Tools & Scripts](scripts/)** — repeatable scripts and documentation designed so others can build the same systems
+- **[Documentation](docs/)** — repository-wide concepts, standards, and teaching material shared across projects
 
 ---
 
@@ -42,7 +44,7 @@ The Automated Acres Benchmark is being developed as a standardized hardware benc
 - Repeatable testing
 - Human-readable reports and machine-readable results
 
-AAB will eventually have its own documented area in this repository as development progresses.
+AAB now has its own **[development area](aab/)** in this repository. Its application-specific development and safety rules are defined separately from the repository-wide rules so unrelated Automated Acres projects do not carry unnecessary benchmark-specific instructions.
 
 ---
 
